@@ -1,0 +1,27 @@
+{
+  "name": "productinfo-photos_service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ATX-50-Team-Best-Buy/productInfo-photos_service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ATX-50-Team-Best-Buy/productInfo-photos_service/issues"
+  },
+  "homepage": "https://github.com/ATX-50-Team-Best-Buy/productInfo-photos_service#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "data": "^0.6.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.27",
+    "seed": "^0.4.4"
+  }
+}
