@@ -111,8 +111,8 @@ const data = [
     America, 1899.
     Arthur Morgan and the Van der Linde gang are outlaws on the run. With federal agents and the best bounty hunters in the nation massing on their heels, the gang must rob, steal and fight their way across the rugged heartland of America in order to survive. As deepening internal divisions threaten to tear the gang apart, Arthur must make a choice between his own ideals and loyalty to the gang who raised him.
     Now featuring additional Story Mode content and a fully-featured Photo Mode, Red Dead Redemption 2 also includes free access to the shared living world of Red Dead Online, where players take on an array of roles to carve their own unique path on the frontier as they track wanted criminals as a Bounty Hunter, create a business as a Trader, unearth exotic treasures as a Collector or run an underground distillery as a Moonshiner and much more.
-    This item cannot be returned or refunded, please visit to learn more.',
-    brand: 'Rockstar Games`,
+    This item cannot be returned or refunded, please visit to learn more.`,
+    brand: 'Rockstar Games',
     department: "Video Games",
     color: "",
     subDept: "PlayStation 4",
@@ -166,8 +166,8 @@ const data = [
     uniqueID: 7,
     name: `Assassin's Creed Odyssey Standard Edition - PlayStation 4`,
     description: `
-    Write your own epic odyssey and become a legendary Spartan hero. Forge your destiny in a world on the brink of tearing itself apart. Influence how history unfolds in an ever-changing world shaped by your choices.',
-    brand: 'Ubisoft`,
+    Write your own epic odyssey and become a legendary Spartan hero. Forge your destiny in a world on the brink of tearing itself apart. Influence how history unfolds in an ever-changing world shaped by your choices.`,
+    brand: 'Ubisoft',
     department: "Video Games",
     color: "",
     subDept: "PlayStation 4",
