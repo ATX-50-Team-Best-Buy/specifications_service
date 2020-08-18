@@ -1,1 +1,2 @@
-# productInfo-photos_service
+# specifications_service
+

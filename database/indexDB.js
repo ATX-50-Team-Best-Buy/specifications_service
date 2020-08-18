@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const videoGameData = require("./videoGameData");
-mongoose.connect("mongodb://localhost/front-end-capstone");
+mongoose.connect("mongodb://localhost/front-end-capstone", { useNewUrlParser: true, useUnifiedTopology: true });
 
 let productSchema = mongoose.Schema({
   uniqueID: Number,
@@ -54,6 +54,10 @@ let saveToDB = (model) => {
   new_product.save();
 };
 
+let grabOne = (id, callback) => {
+  Product.findOne({ uniqueID: id }).exec(callback);
+}
+
 // * Seeds Database
 // let promiseData = videoGameData.data.map(async (product) => {
 //   return product;
@@ -63,3 +67,7 @@ let saveToDB = (model) => {
 //     saveToDB(product);
 //   });
 // });
+
+module.exports = {
+  grabOne
+}
