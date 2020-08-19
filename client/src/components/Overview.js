@@ -23,7 +23,7 @@ export default class Overview extends Component {
   handleSubmit(e) {
     e.preventDefault();
     let id = this.state.formValue
-    fetch(`http://ec2-3-15-234-135.us-east-2.compute.amazonaws.com/api/products/${id}`)
+    fetch(`http://ec2-18-223-97-145.us-east-2.compute.amazonaws.com/api/products/${id}`)
       .then(response => response.json())
       .then(data => {
         this.setState({ description: data.description })
